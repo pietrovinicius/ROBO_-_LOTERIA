@@ -1,0 +1,25 @@
+2025-09-08 12:58:42,898 - INFO - Lendo o arquivo de dados: Mega-Sena.xlsx
+2025-09-08 12:58:43,169 - INFO - Frequências calculadas para 60 números.
+2025-09-08 12:58:43,216 - INFO - Iniciando a aplicação com interface moderna.
+2025-09-08 12:59:04,572 - INFO - Botão 'Gerar Aposta' clicado.
+2025-09-08 12:59:04,573 - INFO - Aposta gerada e validada: [5, 7, 13, 28, 53, 54]
+2025-09-08 12:59:04,601 - INFO - Aposta [5, 7, 13, 28, 53, 54] salva em apostas.xlsx
+2025-09-08 12:59:07,055 - INFO - Botão 'Gerar Aposta' clicado.
+2025-09-08 12:59:07,057 - INFO - Aposta gerada e validada: [5, 11, 16, 20, 43, 48]
+2025-09-08 12:59:07,077 - INFO - Aposta [5, 11, 16, 20, 43, 48] salva em apostas.xlsx
+2025-09-08 13:00:05,622 - INFO - Botão 'Gerar Aposta' clicado.
+2025-09-08 13:00:05,622 - INFO - Aposta gerada e validada: [8, 11, 20, 32, 34, 35]
+2025-09-08 13:00:05,643 - INFO - Aposta [8, 11, 20, 32, 34, 35] salva em apostas.xlsx
+2025-09-08 13:00:06,844 - INFO - Botão 'Gerar Aposta' clicado.
+2025-09-08 13:00:06,845 - INFO - Aposta gerada e validada: [6, 33, 48, 53, 54, 57]
+2025-09-08 13:00:06,865 - INFO - Aposta [6, 33, 48, 53, 54, 57] salva em apostas.xlsx
+2025-09-08 13:00:08,617 - INFO - Botão 'Gerar Aposta' clicado.
+2025-09-08 13:00:08,618 - INFO - Aposta gerada e validada: [2, 10, 24, 33, 37, 49]
+2025-09-08 13:00:08,639 - INFO - Aposta [2, 10, 24, 33, 37, 49] salva em apostas.xlsx
+2025-09-08 13:00:09,441 - INFO - Botão 'Gerar Aposta' clicado.
+2025-09-08 13:00:09,441 - INFO - Aposta gerada e validada: [1, 16, 18, 39, 42, 52]
+2025-09-08 13:00:09,462 - INFO - Aposta [1, 16, 18, 39, 42, 52] salva em apostas.xlsx
+2025-09-08 13:00:10,100 - INFO - Botão 'Gerar Aposta' clicado.
+2025-09-08 13:00:10,100 - INFO - Aposta gerada e validada: [8, 17, 19, 20, 49, 53]
+2025-09-08 13:00:10,121 - INFO - Aposta [8, 17, 19, 20, 49, 53] salva em apostas.xlsx
+2025-09-08 13:00:13,857 - INFO - Aplicação fechada pelo usuário.
