@@ -251,9 +251,20 @@ class App(ttk.Window):
                 # Insere os novos dados em ordem reversa (mais recente primeiro)
                 for i, row in df.iloc[::-1].iterrows():
                     tag = 'evenrow' if i % 2 == 0 else 'oddrow'
+
+                    # --- Lógica de Formatação de Data ---
+                    try:
+                        date_obj = datetime.strptime(str(row['Data']), "%Y-%m-%d %H:%M:%S")
+                        formatted_date = date_obj.strftime("%H:%M %d/%m/%y")
+                    except (ValueError, TypeError):
+                        formatted_date = row['Data'] # Usa o valor original em caso de erro
+                    
+                    display_values = [formatted_date] + list(row[1:])
+                    # --- Fim da Lógica ---
+
                     if highlight_new and i == len(df) - 1:
                         tag = 'success' # Estilo do ttkbootstrap para destaque
-                    self.tree.insert("", "end", values=list(row), tags=(tag,))
+                    self.tree.insert("", "end", values=display_values, tags=(tag,))
         except Exception as e:
             logging.error(f"Erro ao atualizar a janela da planilha: {e}")
 
