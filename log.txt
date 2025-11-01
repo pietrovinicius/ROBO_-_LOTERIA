@@ -1,13 +1,7 @@
-2025-09-08 13:07:38,381 - INFO - Lendo o arquivo de dados: Mega-Sena.xlsx
-2025-09-08 13:07:38,620 - INFO - Frequências calculadas para 60 números.
-2025-09-08 13:07:38,655 - INFO - Iniciando a aplicação com interface moderna.
-2025-09-08 13:07:41,164 - INFO - Botão 'Gerar Aposta' clicado.
-2025-09-08 13:07:41,166 - INFO - Aposta gerada e validada: [4, 6, 35, 36, 43, 55]
-2025-09-08 13:07:41,192 - INFO - Aposta [4, 6, 35, 36, 43, 55] salva em apostas.xlsx
-2025-09-08 13:07:42,615 - INFO - Botão 'Gerar Aposta' clicado.
-2025-09-08 13:07:42,617 - INFO - Aposta gerada e validada: [5, 16, 18, 32, 40, 44]
-2025-09-08 13:07:42,646 - INFO - Aposta [5, 16, 18, 32, 40, 44] salva em apostas.xlsx
-2025-09-08 13:07:44,699 - INFO - Botão 'Gerar Aposta' clicado.
-2025-09-08 13:07:44,701 - INFO - Aposta gerada e validada: [1, 22, 26, 29, 33, 49]
-2025-09-08 13:07:44,723 - INFO - Aposta [1, 22, 26, 29, 33, 49] salva em apostas.xlsx
-2025-09-08 13:07:52,329 - INFO - Aplicação fechada pelo usuário.
+2025-11-01 13:23:28,737 - INFO - Lendo o arquivo de dados: Mega-Sena.xlsx
+2025-11-01 13:23:29,020 - INFO - Frequências calculadas para 60 números.
+2025-11-01 13:23:29,020 - INFO - Calculando co-ocorrência de pares de números.
+2025-11-01 13:23:29,230 - INFO - Co-ocorrência calculada para 1770 pares.
+2025-11-01 13:23:29,230 - INFO - Calculando co-ocorrência de trincas de números.
+2025-11-01 13:23:29,452 - INFO - Co-ocorrência calculada para 27634 trincas.
+2025-11-01 13:23:29,511 - INFO - Iniciando a aplicação com interface moderna.
