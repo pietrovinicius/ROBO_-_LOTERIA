@@ -11,6 +11,8 @@ Sumário
 - Relatório estatístico
 - Estrutura dos dados e arquivos
 - Logs e solução de problemas
+ - Guia rápido (passo a passo)
+ - Screenshots da interface
 
 Visão geral
 Este projeto lê o histórico de sorteios (Mega-Sena.xlsx), calcula estatísticas básicas (frequência individual, co-ocorrência de pares e trincas) e oferece duas estratégias para gerar apostas:
@@ -70,3 +72,28 @@ Logs e solução de problemas
 
 Aviso estatístico
 - As estratégias não garantem aumento de probabilidade de acerto de um bilhete isolado; o objetivo é equilibrar combinações, evitar padrões populares e aumentar diversidade quando se gera várias apostas.
+- Guia rápido (passo a passo)
+1) Prepare o ambiente:
+   - py -m venv venv
+   - .\\venv\\Scripts\\python.exe -m pip install pandas openpyxl ttkbootstrap pillow
+2) Coloque Mega-Sena.xlsx na raiz do projeto.
+3) Execute a aplicação:
+   - .\\venv\\Scripts\\python.exe main.py
+4) Use os botões:
+   - Gerar (Estratégia 1): aposta uniforme e equilibrada.
+   - Gerar (Estratégia 2): aposta priorizando pares/trincas raros.
+   - Qtd + Gerar Portfólio (E2): gera N apostas focando cobertura.
+   - Relatório Estatístico: mostra um resumo de qui-quadrado.
+5) Verifique resultados:
+   - Histórico na UI com coluna "Estratégia".
+   - Apostas salvas em apostas.xlsx com [Estrategia, Data, N1..N6].
+
+Screenshots da interface
+Coloque imagens em docs/screenshots e elas aparecerão corretamente no GitHub.
+
+Exemplos (placeholders):
+![Tela principal](docs/screenshots/tela-principal.png)
+![E1 gerada](docs/screenshots/e1-gerada.png)
+![E2 gerada](docs/screenshots/e2-gerada.png)
+![Portfólio E2](docs/screenshots/portfolio-e2.png)
+![Relatório](docs/screenshots/relatorio-estatistico.png)
